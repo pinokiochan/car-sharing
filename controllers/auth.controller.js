@@ -6,10 +6,12 @@ const speakeasy = require("speakeasy");
 
 // Конфигурация Nodemailer для отправки email
 const transporter = nodemailer.createTransport({
-  service: "gmail",
+  host: "smtp.mail.me.com",
+  port: 587,
+  secure: false,
   auth: {
-    user: process.env.EMAIL_USER, // Укажите почту в .env
-    pass: process.env.EMAIL_PASS, // Пароль приложения от Gmail
+      user: process.env.EMAIL_USER,
+      pass: process.env.EMAIL_PASS,
   },
 });
 
