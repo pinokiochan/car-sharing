@@ -67,13 +67,15 @@ Real-Time Features: Dynamic updates for available cars and pricing.
 
 🔹Database Optimization: Compound Indexes, Aggregation Pipelines
 
+🔹Data Collection : Extract and import data from a relevant external source [auto.ru](https://auto.ru/)
+
 🔹Deployment: Render
 ## 🔥 Installation & Setup
 
 1️⃣ Clone the repository
 
 ```bash
-  git clone https://github.com/pinokiochan/.git
+  git clone https://github.com/pinokiochan/car-sharing
   cd CarRent
 ```
 
@@ -160,6 +162,7 @@ Real-Time Features: Dynamic updates for available cars and pricing.
 | :-------- | :------- | :------------------------- |
 | `/api/admin/users` | `GET` | Retrieve all registered users |
 | `/api/admin/users/:id` | `DELETE` | Remove a user account |
+|`/api/admin/users/:id` | `PUT` | Edit a user account |
 | `/api/admin/analytics/bookings` | `GET` | Retrieve booking analytics |
 | `/api/admin/analytics/payments` | `GET` | Retrieve payment statistics |
 
@@ -187,4 +190,4 @@ Submit a Pull Request
 All contributions are welcome! 🎉
 ## 🔗 Connect with Us
 📧 Email: beibarys7ergaliev@gmail.com or 231140@astanait.edu.kz 
-🌐 Website: [Car Rent](https://carrent-zk0x.onrender.com)
+🌐 Website: [Car Rent](https://car-sharing-jgjh.onrender.com)
